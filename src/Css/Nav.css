@@ -1,0 +1,96 @@
+/* .nav{
+    display: flex;
+    position:fixed;
+    top: 0;
+    justify-content: space-between;
+    padding: 20px;
+   background-image: filter(5px);
+  
+}
+.nav > h1{
+    color: red;
+    
+   
+}
+.nav>div>h1{
+  
+    color: red;
+margin-right: 0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60vw;
+}
+.profile{
+    display: flex;
+    width: 50px;
+    height: 50px;
+   align-items: center;
+   justify-content: center;
+    background-color: red;
+    text-align: center;
+    border-radius:7px ; 
+}
+.profile-logo{
+    color: beige;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+} */
+.contact{
+   
+    right: 80px;
+    
+    position: fixed;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    padding:10px 1px 10px 0;
+    width: 20vw;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+    background-color: rgba(37, 37, 37, 0.51);
+    border: 1px solid rgb(68, 66, 66);
+    outline: none;
+  
+
+}
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 35px;
+    z-index: 10000;
+  
+    /* Animation */
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+  
+  }
+  
+  .nav_black {
+    background-color: #111;
+  }
+  
+  .nav_logo {
+    position: fixed;
+    left: 20px;
+    width: 100px;
+    object-fit: contain;
+  }
+  
+  .nav_avatar {
+    position: fixed;
+    right: 20px;
+    width: 40px;
+    object-fit: contain;
+    border-radius: 5px;
+    justify-content: center;
+
+  }
+  

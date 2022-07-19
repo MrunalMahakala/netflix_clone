@@ -1,0 +1,109 @@
+.row {
+    color: #fff;
+    margin-left: 20px;
+    scroll-behavior: smooth;
+  }
+  .row >h2{
+    padding: 20px;
+    color: rgb(199, 195, 187);
+  }
+  .row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  .row_posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .row_poster {
+    object-fit: contain;
+    width: 100%;
+    max-height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 250ms all;
+
+    /* transition: transform 450ms; */
+  }
+  .trending  {
+    object-fit: contain;
+    width: 100%;
+    max-height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: 250ms all;
+    transform: rotateZ(-30deg);
+    transform-origin: center;
+    transition: transform 450ms;
+  }
+  /* .trending_row-posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+  } */
+  .row_poster:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+    margin: 0 40px;
+    z-index: 1;
+  }
+  
+  /* .row_posterLarge {
+    max-height: 250px;
+  }
+  
+  .row_posterLarge:hover {
+    transform: scale(1.11);
+    border-radius: 5px;
+    margin: 0 40px;
+  } */
+/* .left_scroll{
+  position: relative;
+  min-height: 70%;
+  width: 40px;
+  align-content: center;
+  justify-content: center;
+  background-color: rgba(37, 37, 37, 0.25);
+  padding: 20px;
+  font-size: larger;
+  cursor: pointer;
+} */
+.left_scroll{
+  content: "<";
+  position: absolute;
+  left: 10px;
+  min-height: 260px;
+  width: 40px;
+  text-align: center;
+  /* justify-content: center; */
+  background-color: rgba(37, 37, 37, 0.45);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: larger;
+  cursor: pointer;
+  z-index: 2;
+}
+.right_scroll{
+
+  position: absolute;
+  margin-top: 10px;
+  right: 10px;
+  min-height: 260px;
+  width: 40px;
+  text-align: center;
+  /* justify-content: center; */
+  background-color: rgba(37, 37, 37, 0.45);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: larger;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/*new code*/
